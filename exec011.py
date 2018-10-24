@@ -1,0 +1,6 @@
+produto = str(input('Digite o nome do Produto: '))
+valor_produto = float(input('Digite o Valor do Produto:R$ '))
+percent = float(input('Quantos por cento de desconto? '))
+novo_preco = valor_produto - (valor_produto * percent / 100)
+print('O {} custa R${:.2f}'.format(produto, valor_produto))
+print('Mas com o Desconto de {}% o valor ficará R${:.2f}'.format(percent, novo_preco))
