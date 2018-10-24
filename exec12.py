@@ -1,0 +1,6 @@
+salario = float(input('Qual o salário atual? R$'))
+percentual = float(input('Quantos por cento de aumento? R$ '))
+novo_salario = salario + (salario * percentual / 100)
+print('Salário Atual: R$ {:.2f}'.format(salario))
+print('Percentual de Aumento: {:.2f}%'.format(percentual))
+print('O seu novo salário é R${:.2f}'.format(novo_salario))
