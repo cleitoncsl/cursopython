@@ -1,2 +1,2 @@
 print('\033[4;31;43mOi Mundo!\033[m')
-teste   
+print('Trabalhando com cores')
