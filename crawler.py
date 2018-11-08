@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import lxml
 import requests
-#from lxml import html
+from lxml import html
 
 url = str(input('url: '))
 r = requests.get('{}'.format(url))
