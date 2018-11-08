@@ -18,3 +18,5 @@ email = (tree.xpath('//*[@id="article"]/div/div[2]/div/p/a[2]/text()'))[0].strip
 print('Cargo: {}'.format(cargo))
 print('Salário: {}'.format(salario))
 print('E-mail: {}'.format(email))
+
+#codigo funcional
